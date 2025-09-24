@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class makepalidronestring {
     public static void main(String[] args) {
-        String str="";
+        String str="" ;
         Scanner sc = new Scanner(System.in);
         str= sc.nextLine();
         int n = str.length();
@@ -30,7 +30,7 @@ public class makepalidronestring {
 
             if(out.equals(out2))
             {
-                System.out.println("palidrone");
+                System.out.println("Could become palidrone");
                 return;
             }
 

@@ -1,11 +1,11 @@
-import java.lang.reflect.Array;
+
 import java.util.*;
 public class string_compression {
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
-        String demo=sc.nextLine();
-
+        // Scanner sc = new Scanner(System.in);
+        // String demo=sc.nextLine();
+        String demo="aaabbbbc";
         ArrayList<Character> al = new ArrayList<>();
         ArrayList<Character> cl = new ArrayList<>();
         
@@ -17,7 +17,7 @@ public class string_compression {
                 hs.add(demo.charAt(i));
                 al.add(demo.charAt(i));
             }
-        
+        System.out.println("enter string: ");
         int uele=hs.size();
         for(int i=0;i<n;i++)
             cl.add(demo.charAt(i));
@@ -35,7 +35,7 @@ public class string_compression {
             }
 
             System.out.println(Arrays.toString(arr));
-
+            sc.close();
 
     
 

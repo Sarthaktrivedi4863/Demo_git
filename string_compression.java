@@ -35,7 +35,7 @@ public class string_compression {
             }
 
             System.out.println(Arrays.toString(arr));
-            sc.close();
+      //      sc.close();
 
     
 

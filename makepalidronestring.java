@@ -36,5 +36,6 @@ public class makepalidronestring {
 
         }
         System.out.println("Not able to convert in Palidrome");
+        sc.close();
     }
 }

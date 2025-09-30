@@ -3,9 +3,9 @@ import java.util.*;
 public class string_compression {
     public static void main(String[] args) {
         
-        // Scanner sc = new Scanner(System.in);
-        // String demo=sc.nextLine();
-        String demo="aaabbbbc";
+        Scanner sc = new Scanner(System.in);
+        String demo=sc.nextLine();
+       // String demo="aaabbbbc";
         ArrayList<Character> al = new ArrayList<>();
         ArrayList<Character> cl = new ArrayList<>();
         
@@ -33,9 +33,10 @@ public class string_compression {
                         arr[i]++;
                 }
             }
-
-            System.out.println(Arrays.toString(arr));
-      //      sc.close();
+            for(int i=0;i<uele;i++)
+                System.out.print(al.get(i)+""+arr[i]);
+           // System.out.println(Arrays.toString(arr));
+            sc.close();
 
     
 

@@ -16,7 +16,7 @@ public class balance_paranthesis {
             if(al.get(i)=='(' || al .get(i)=='{' || al.get(i)=='[')
                {
                  st.push(al.get(i));
-                 System.out.println("pushing in stack"+al.get(i));
+               //  System.out.println("pushing in stack"+al.get(i));
                }
             else{
                 if(st.peek()=='[' && al.get(i)==']')

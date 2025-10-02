@@ -6,7 +6,7 @@ public class duplicate_characters {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        HashSet hs = new HashSet<>();
+        HashSet<Character> hs = new HashSet<>();
         ArrayList<Character> al = new ArrayList<>();
         int n = str.length();
         for(int i=0;i<n;i++)
@@ -21,7 +21,7 @@ public class duplicate_characters {
         }
 
         System.out.println("Repeated Characters are: ");
-        for(int i=0;i<n;i++)
+        for(int i=0;i<al.size();i++)
             System.out.print(al.get(i)+",");
 
     }
